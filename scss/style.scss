@@ -11,11 +11,11 @@
 body {
   background-color: $light-color;
   font-family: $font-stack;
-  line-height: 1;
+  line-height: 3;
 }
 
 img {
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 a {
@@ -25,11 +25,13 @@ a {
 .hero {
   @include set-bg($primary-color);
   height: 800px;
+ 
 
   nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: red ;
 
     ul {
       display: flex;
@@ -54,7 +56,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 40px;
+ 
 
     img {
       width: 50%;
